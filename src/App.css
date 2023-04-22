@@ -1,0 +1,151 @@
+/* premium astrologer box  */
+.App{
+    margin: auto;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #FFEFE3;
+}
+.all-cards-container{
+    width: 1224px;
+    margin:auto;
+    background-color: #FFEFE3;
+}
+.premium-astro-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-style: 'Sansation';
+
+}
+.premium-astro-cont img{
+    height: 29px;
+    width: 27px;
+}
+.premium-astro-cont p {
+    color: #D97122;
+    font-family: 'Sansation';
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0.085em;
+}
+.torn{
+    margin:26px;
+    margin-top: -4px;
+}
+
+/* //any problems container css  */
+
+.manyProblem-container{
+    width: 1224px;
+    margin: auto;
+    height: 620px;
+}
+.mpos-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.left-div{
+    margin:auto;
+    position: absolute;
+}
+.right-div{
+    margin-left: 908px;
+    position: absolute;
+}
+.middle-div{
+    position: absolute;
+    margin-left:624px ;
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-div img{
+    position: absolute;
+
+}
+
+.rotate{
+    /* margin-left: -20px !important;
+    margin-top: -20px !important; */
+    animation: rotate 6s infinite ease-out;
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(-90deg);
+    }
+}
+
+/* //user testimonial */
+.sun-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.Video-caraousel-main{
+    background-color: #FFEFE3;
+    margin:auto;
+    width:1224px ;
+}
+.banner-container img{
+    margin-left: -2px;
+    margin-top: 50px;
+}
+.dot-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+/* media queries mobiles  */
+
+@media only screen and (max-width: 486px) {
+
+    .right-div{
+        margin-left: 878px;
+    }
+    .middle-div{
+        margin-left: 600px;
+    }
+  }
+  
+  /* Media Query for tablets */
+  @media only screen and (max-width: 768px) {
+    .torn{
+        margin-left: 0;
+        width: 1400px;
+    }
+    .all-cards-container{
+        margin-left: 0;
+    }
+    .manyProblem-container{
+        margin-left: 0;
+    }
+    .Video-caraousel-main{
+        margin-left: 0;
+    }
+  }
+    /* Media Query for tablets */
+    @media only screen and (max-width: 992px) {
+
+        .Video-caraousel-main{
+            margin-left: 0;
+        }
+      }
+  

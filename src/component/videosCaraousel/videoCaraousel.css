@@ -1,0 +1,64 @@
+.slider-container{
+    width:1000px ;
+    margin-left: 108px;
+}
+.arrow-container{
+    display: flex;
+    gap: 34px;
+    margin-left: 534px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.slider-container {
+    position: relative;
+  }
+  
+  .image-container {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out, z-index 0.3s ease-in-out;
+    z-index: 0;
+  }
+  .image-container.active {
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1.2);
+  }
+  
+  .slick-current .image-container {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .image-container {
+    position: relative;
+  }
+  
+ .play-btn-cont{
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 100px;
+ }
+
+
+
+
+/* Media Query for tablets */
+
+@media only screen and (max-width: 992px) {
+  
+.slick-slide {
+    width: 100% !important;
+  }
+  .slick-list {
+    margin: 0 auto !important;
+  }
+  .slick-track {
+    display: flex !important;
+  }
+  .slick-arrow {
+    display: none !important;
+  }
+  .slick-slide div {
+    margin: 0 !important;
+  }
+}

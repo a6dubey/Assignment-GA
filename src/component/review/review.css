@@ -1,0 +1,140 @@
+.review-container{
+    width: 1222px;
+    height:731px ;
+    background-color: #F2D2BA;
+    margin:auto;
+}
+.review-head-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-style: 'Sansation';
+}
+.review-head-cont img{
+    height: 29px;
+    width: 27px;
+}
+.review-head-cont p {
+    color: #D97122;
+    font-family: 'Sansation';
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0.085em;
+}
+
+.review-star-cont{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 37px;
+}
+.review-white-box{
+    background-color: white;
+    position: absolute;
+    width: 1100px;
+    height: 370px;
+    left: 90px;
+    margin-top: 20px;
+}
+.review-white-box p{
+    position: absolute;
+    width: 759px;
+    height: 105px;
+    left: 179px;
+    top: 130px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #5B2800;
+}
+.both-arr-container{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-cont{
+    background-color: #D97122;
+    width: 44px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -20px;
+    margin-top: 70px;
+}
+.right{
+    margin-right: -21px;
+}
+.review-dp  img{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 150px;
+}
+
+
+
+/* Media Query for mobiles */
+@media only screen and (max-width: 480px) {
+    .review-container {
+      height: 600px;
+      margin-left: 0;
+      padding: 20px;
+    }
+  
+    .review-head-cont {
+      align-items: center;
+      margin-bottom: 20px;
+    }
+  
+    .review-head-cont img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .review-head-cont p {
+        font-size: 24px;
+    }
+  
+    .review-star-cont {
+        align-items: center;
+        padding-top: 40px;
+    }
+  
+    .review-white-box {
+      position: relative;
+      width: 100%;
+      left: 0;
+      margin-top: 20px;
+    }
+
+    .review-white-box p {
+      left: 0;
+      margin-left: 20%;
+      text-align: center;
+    }
+  
+    .both-arr-container {
+      display: none;
+    }
+    .review-dp img {
+    margin-top: -80px;
+    display: block;
+    }
+  }
+  
+  /* Media Query for tablets */
+  @media only screen and (max-width: 768px) {
+    .review-head-cont p {
+      font-size: 20px;
+    }
+  
+    .review-white-box p {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+  

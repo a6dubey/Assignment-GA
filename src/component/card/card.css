@@ -1,0 +1,156 @@
+.caraousel{
+    margin-top: 20px;
+}
+
+
+.card{
+    width: 346px;
+    height:408px ;
+    border-radius: 7.414285659790039px;
+    margin-top: 10px;
+}
+
+
+.card img{
+    position: absolute;
+    margin-left:30px;
+    
+}
+.sidehue{
+z-index: 1;
+position: absolute;
+margin-left:30px;
+margin-top: 49px;
+z-index: 1;
+opacity: 0.7;
+}
+.downhue{
+z-index: 1;
+position: absolute;
+margin-left:30px;
+opacity: 0.7;
+margin-top: 33px;
+}
+.uphue{
+    z-index: 1;
+    position: absolute;
+    margin-left:30px;
+    rotate: 180deg;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.upsidehue{
+    position: absolute;
+    margin-left:30px;
+    rotate: 180deg;
+    z-index: 1;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+.contact{
+    position: absolute;
+    margin-left:30px;
+    margin-top: 370px;
+    z-index: 2;
+}
+
+.exp-on p{
+    position: absolute;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    z-index: 5;
+    margin-top: 20px;
+    margin-left: 49px;
+    
+}
+.status-cont{
+    position: absolute;
+    color: #FFFFFF;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.status-cont img{
+    position: absolute;
+    margin-left:30px;
+}
+.exp-on span{
+    position: absolute;
+    z-index: 6;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 310px;
+}
+.online{
+    margin-left: 45px !important;
+}
+
+/* //detail-box */
+.detail-box{
+    position: absolute;
+
+    z-index: 5;
+    color: #FFFFFF;
+    margin-left: 19px;
+    margin-top:200px ;
+}
+.title{
+    font-weight: 600;
+    font-size: 22.24px;
+    color: white;
+    -webkit-text-stroke: .05px #000000;    
+    margin-left: 30px;
+}
+.detail-box div p {
+    width: 87px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #FFDBC0;
+    mix-blend-mode: normal;
+    margin-left: 30px;
+}
+.detail-box div span{
+    width: 150px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-left: 30px;
+
+}
+.price-box{
+    position: absolute;
+    z-index: 5;
+    color:#5CE449 ;
+    margin-left: 275px;
+    margin-top: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price-box p{
+    width: 35px;
+    height: 21px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.price{
+    position: absolute;
+    font-weight: 700;
+    font-size: 30px !important;
+    margin-left: -40px;
+}
+.price span{
+    font-size: 17px !important;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+.hidden{
+    visibility: hidden;
+}
